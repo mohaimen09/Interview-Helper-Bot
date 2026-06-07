@@ -1,0 +1,34 @@
+/chroma_db
+/processed_pdfs.json
+
+# Firebase service account keys
+*.json
+!processed_pdfs.json
+!package*.json
+
+# Local env / secrets
+.env
+.env.*
+*.key
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Local data (PDFs you ingest)
+data/
+
+# Secrets
+ragchatbot-d1ee2-2eb04c925178.json
+*.key
+.env
+
+
+# Secrets
+ragchatbot-d1ee2-2eb04c925178.json
+serviceAccount*.json
+*.key
+.env
+
